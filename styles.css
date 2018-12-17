@@ -1,0 +1,50 @@
+.name{
+    display:flex;
+    border:red dotted 5px;
+    padding:30px;
+    background:white;
+    margin:10px;
+    justify-content:space-around;
+    font-size:40px;
+    text-decoration:underline;
+    color:blue;
+}
+.button{
+    color:white;
+    background:blue;
+    border:dotted;
+    height:80px;
+    width:300px;
+    font-size:30px;
+    transition: 3s;
+    }
+.button:hover {
+    transform: rotate(360deg);
+}
+.image{
+    display:flex;
+    justify-content:space-around;
+}
+.imgone{
+    width:400px;
+    height:400px;
+    cursor:pointer;
+}
+.ton{
+    text-align:center;
+}
+img:hover{
+    transform:scale(1.3);
+}
+p{
+    background:red;
+    text-decoration: underline;
+    font-size:40px;
+    text-align:center;
+    color:white;
+    padding:40px;
+    border:dashed;
+}
+body{
+    background-image: url("http://standardflags.com/shop/wp-content/uploads/2013/01/Nylon-American-Flag-closeup-1.jpg");
+}
